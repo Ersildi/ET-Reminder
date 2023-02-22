@@ -1,16 +1,3 @@
 {
-  "users": [
-    {
-      "id": 1,
-      "username": "esildi",
-      "email": "ersilditopciu@gmail.com",
-      "password": "ersildi1"
-    },
-    {
-      "id": 2,
-      "username": "user",
-      "email": "user@gmail.com",
-      "password": "user1"
-    }
-  ]
+  "users": []
 }
