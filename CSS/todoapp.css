@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.application {
+  /* border: solid 2px black; */
+  width: 600px;
+  margin: 50px auto auto auto;
+  padding: 10px 5px 5px 5px;
+  text-align: center;
+  background-color: skyblue;
+  border-radius: 20px;
+}
+
+.application::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.input-btn {
+  display: flex;
+  padding: 10px;
+}
+
+.todo-inputbox {
+  width: 75%;
+  margin-right: 25px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.application ul li {
+  cursor: pointer;
+  position: relative;
+  width: 75%;
+  margin: 10px;
+  padding: 12px 8px 12px 40px;
+  background: #dadada;
+  font-size: 26px;
+  font-weight: 500;
+  transition: 0.2s;
+  border-radius: 10px;
+  text-align: left;
+
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.application ul li:nth-child(odd) {
+  background-color: #f9f9f9;
+}
+
+.application ul li:hover {
+  background: #aaaaaa;
+  color: white;
+}
+
+.application ul li.checked {
+  background: #555555;
+  color: white;
+}
+
+.application ul li.checked::before {
+  content: "";
+  position: absolute;
+  border-color: #ffffff;
+  border-style: solid;
+  border-width: 0 2px 2px 0;
+  top: 10px;
+  left: 16px;
+  transform: rotate(45deg);
+  height: 15px;
+  width: 7px;
+}
+
+.close {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 12px 16px;
+  border-radius: 10px;
+}
+
+.close:hover {
+  background-color: red;
+}
