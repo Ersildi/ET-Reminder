@@ -22,7 +22,7 @@ const usernameDB = loginButton.addEventListener("click", (e) => {
   const password = loginForm.password.value;
   if (username === "user" && password === "user") {
     location.reload();
-    window.location.href = "/HTML/todoapp.html";
+    window.location.href = "todoapp.html";
   } else {
     alert("Wrong username or password");
   }
