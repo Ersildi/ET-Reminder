@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Ersildi/ET-Reminder/issues"
   },
-  "homepage": "https://github.com/Ersildi/ET-Reminder#readme"
+  "homepage": "https://github.com/Ersildi/ET-Reminder#readme",
+  "dependencies": {
+    "puppeteer": "^21.5.2"
+  }
 }
