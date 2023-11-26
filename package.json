@@ -1,0 +1,20 @@
+{
+  "name": "et-reminder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ersildi/ET-Reminder.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ersildi/ET-Reminder/issues"
+  },
+  "homepage": "https://github.com/Ersildi/ET-Reminder#readme"
+}
